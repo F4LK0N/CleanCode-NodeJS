@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tsc && jest ./dist",
-    "coverage": "tsc && jest ./dist --coverage"
+    "tests": "tsc && jest ./dist",
+    "cover": "tsc && jest ./dist --coverage"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,7 @@
   "dependencies": {
     "@types/jest": "^27.0.2",
     "jest": "^27.5.1",
-    "typescript": "^4.4.3"
+    "pg-promise": "^11.5.0",
+    "typescript": "^4.9.5"
   }
 }
